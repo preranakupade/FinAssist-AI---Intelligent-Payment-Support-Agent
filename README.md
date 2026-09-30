@@ -109,14 +109,8 @@ React UI
 
 ## ⚙️ Setup
 
-### 1. Clone the repository
 
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd FinAssist-AI
-```
-
-### 2. Backend
+### 1. Backend
 
 ```bash
 cd backend
@@ -129,7 +123,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### 3. Start Ollama
+### 2. Start Ollama
 
 Install and run Ollama, then pull the required model:
 
@@ -139,7 +133,7 @@ ollama pull qwen3:4b
 
 Make sure Ollama is running before starting the application.
 
-### 4. Frontend
+### 3. Frontend
 
 ```bash
 cd frontend
